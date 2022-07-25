@@ -1,3 +1,14 @@
+libtirpc (1.2.5-1ubuntu0.1) focal-security; urgency=medium
+
+  * SECURITY UPDATE: Denial of service
+    - debian/patches/CVE-2021-46828.diff: fix DoS
+      by enhancing rendezvous_request to keep the number of
+      SVCXPRT connections to 4/5 of the size of the file desc
+      tabble in src/svc.c, src/svc_vc.c.
+    - CVE-2021-46828
+
+ -- Leonidas Da Silva Barbosa <leo.barbosa@canonical.com>  Mon, 25 Jul 2022 10:22:58 -0300
+
 libtirpc (1.2.5-1) unstable; urgency=medium
 
   * New upstream release (1.2.5):

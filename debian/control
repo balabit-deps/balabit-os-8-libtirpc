@@ -1,6 +1,7 @@
 Source: libtirpc
 Priority: optional
-Maintainer: Josue Ortega <josue@debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Josue Ortega <josue@debian.org>
 Build-Depends: debhelper-compat (= 12), libtool, pkg-config, libkrb5-dev
 Standards-Version: 4.4.1
 Section: libs
